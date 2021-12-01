@@ -11,3 +11,8 @@ In order for you to make this configuration work you will have to create the fol
 You can add more environments and more regions as needed.
 
 To get a clear picture as to how the folders are structured run a tree command on the base directory
+
+For an example: To create an infrastructure 
+
+cd into terraform-region-template/test-app/production/us-west-2
+terraform apply -var-file=us-west-2-production.tfvars
