@@ -15,4 +15,5 @@ To get a clear picture as to how the folders are structured run a tree command o
 For an example: To create an infrastructure 
 
 cd into terraform-region-template/test-app/production/us-west-2
+
 terraform apply -var-file=us-west-2-production.tfvars
