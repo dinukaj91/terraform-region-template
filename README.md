@@ -1,9 +1,13 @@
 # A Terraform Template For Handling Multiple Regions and Environments
 
-The Terraform folder structure 
+In order for you to make this configuration work you will have to create the following buckets in the two different regions:
 
-A Terraform template used to manage different environments in multiple regions
+staging-terraform-state-acme-us-west-2
+production-terraform-state-acme-us-west-2
+production-terraform-state-acme-us-east-2
 
+The Terraform folder structure for this is given below.
+You can add more environments and more regions as needed.
 
 
 ├── README.md
