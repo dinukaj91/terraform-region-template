@@ -2,11 +2,11 @@
 
 In order for you to make this configuration work you will have to create the following buckets in the two different regions:
 
-staging-terraform-state-acme-us-west-2
+  staging-terraform-state-acme-us-west-2
 
-production-terraform-state-acme-us-west-2
+  production-terraform-state-acme-us-west-2
 
-production-terraform-state-acme-us-east-2
+  production-terraform-state-acme-us-east-2
 
 The Terraform folder structure for this is given below.
 
